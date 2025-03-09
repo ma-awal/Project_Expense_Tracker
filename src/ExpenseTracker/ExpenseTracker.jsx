@@ -36,8 +36,8 @@ const ExpenseTracker = () => {
     setTransections(restTransactions);
   }
   return (
-    <div className="  bg-gray-100 p-8">
-      <div className="  mx-auto grid grid-cols-12 gap-6">
+    <div className="  bg-gray-100 p-8   ">
+      <div className="  mx-auto grid grid-cols-12 gap-6 ">
         <div className="col-span-4 bg-white p-6 rounded-lg shadow-md">
           <ExpenseTab activeTab={activeTab} setActiveTab={setActiveTab} />
           <ExpenseForm
