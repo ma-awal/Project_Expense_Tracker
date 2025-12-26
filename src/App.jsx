@@ -1,9 +1,9 @@
-import Layout from './ExpenseTracker/Layout';
+import ExpenseTracker from './ExpenseTracker/ExpenseTracker';
 
 function App() {
   return (
     <>
-      <Layout />
+      <ExpenseTracker />
     </>
   );
 }
